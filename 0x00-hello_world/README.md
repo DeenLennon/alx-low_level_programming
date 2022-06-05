@@ -6,3 +6,4 @@ A script that prints exactly programming is like building a multilingual puzzle 
 A C programm that prints exactly with proper grammer
 A script that prints the size of various types of computer
 A script that generate the assembly code
+UNIX is basically a simple operating system
