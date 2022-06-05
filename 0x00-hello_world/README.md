@@ -4,3 +4,4 @@ A script that generates assembly code of a C code save it in an output file.
 A script that compiles and creates an executable named cisfun
 A script that prints exactly programming is like building a multilingual puzzle followed by a new line
 A C programm that prints exactly with proper grammer
+A script that prints the size of various types of computer
