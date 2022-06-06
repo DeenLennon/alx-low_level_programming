@@ -5,6 +5,7 @@
  * main - finds the last int in a random number
  *
  * Description: The numbers are generated automatically
+ *
  * Return: Always(0) Success
  */
 
@@ -17,6 +18,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	l = n % 10;
+
 	if (l > 5)
 	{
 		printf("Last digit of %d is %d and is grater than 5\n", n, l);
