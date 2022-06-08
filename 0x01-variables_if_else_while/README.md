@@ -8,3 +8,4 @@ A program that prints all single digit numbers of base 10 starting form 0, follo
 A script that prints lowercase in reverse, followed by a new line.
 A program that prints all the numbers of base 16 in lowercase followed by a new line
 A script that prints all possible combination of single digit numbers
+A program that prints all posible combinations of two digit
