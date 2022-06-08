@@ -4,3 +4,4 @@ A script that print alphabet in lowercase
 A script that prints alphabet in lower case and then in uppercase
 A script that print alphat in lowercase followed by a new line
 A script that prints all single digit numbers of base 10 starting from 0 followed by a new line.
+A program that prints all single digit numbers of base 10 starting form 0, followed by a new line.
