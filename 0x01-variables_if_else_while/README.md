@@ -10,3 +10,4 @@ A program that prints all the numbers of base 16 in lowercase followed by a new 
 A script that prints all possible combination of single digit numbers
 A program that prints all posible combinations of two digit
 A program that prints all posible different combination of three digit
+A program that prints all possible combinations of two-digit numbers
