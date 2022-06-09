@@ -1,4 +1,4 @@
-#inlude "holberton.h"
+#include "holberton.h"
 
 /**
  * main - prints a character using _putchar
