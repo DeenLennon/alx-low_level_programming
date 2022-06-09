@@ -1,17 +1,22 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * main - prints a character using _putchar
+ * main - Entry
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 
 int main(void)
 {
-	char c[] = "Holberton\n";
-	int i;
+	char word[9] = "_putchar";
 
-	for (i = 0; i <= 9; i++)
-		_putchar(c[i]);
+	int i = 0;
+
+	while (i < 8)
+	{
+		_putchar(word[i]);
+		i++;
+	}
+	_putchar('\n');
 	return (0);
 }
