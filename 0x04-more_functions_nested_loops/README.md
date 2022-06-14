@@ -5,3 +5,4 @@ A function that prints numbers from 0 to 9
 A function that prints numbers from 0 - 9
 A function that prints 10 times the numeral from 0 to 14
 A function that draws a straight line on the terminal
+A function that draws a diagonal line on the terminal
