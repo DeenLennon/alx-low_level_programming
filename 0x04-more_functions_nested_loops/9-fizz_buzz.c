@@ -15,23 +15,23 @@ int main(void)
 	{
 		if (((x % 3) == 0) && ((x % 5) == 0))
 		{
-			_putchar("FizzBuzz");
+			printf("FizzBuzz");
 		}
 		else if ((x % 3) == 0)
 		{
-			_putchar("Fizz");
+			printf("Fizz");
 		}
 		else if ((x % 5) == 0)
 		{
-			_putchar("Buzz");
+			printf("Buzz");
 		}
 		else
 		{
-			_putchar("%x", x);
+			printf("%x", x);
 		}
 		if (x < 100)
-			_putchar(" ");
+			printf(" ");
 	}
-	_putchar("\n");
+	printf("\n");
 	return (0);
 }
