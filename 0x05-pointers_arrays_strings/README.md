@@ -7,3 +7,4 @@ A function that reverse a string
 A function that prints every character of a string, starting with the first character
 A function that prints half of a string
 A function that prints n element of an arrary, followed by a new line
+A function that copies the string pointed to by src
