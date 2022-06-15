@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Fizz Buzz
+ * fizz_buzz - Fizz Buzz
  *
  * Return: 0
  */
-int main(void)
+void fizz_buzz(void)
 {
 	int x;
 
@@ -28,7 +28,7 @@ int main(void)
 			printf("%x", x);
 		}
 		if (x < 100)
-			printf(' ');
+			printf(" ");
 	}
-	printf('\n');
+	printf("\n");
 }
