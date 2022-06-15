@@ -28,7 +28,8 @@ int main(void)
 			printf("%x", x);
 		}
 		if (x < 100)
-			printf(" ");
+			_putchar(" ");
 	}
-	printf("\n");
+	_putchar("\n");
+	return (0);
 }
