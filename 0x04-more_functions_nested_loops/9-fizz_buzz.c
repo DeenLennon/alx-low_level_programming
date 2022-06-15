@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - Fizz Buzz
@@ -13,22 +13,22 @@ int main(void)
 	{
 		if (((x % 3) == 0) && ((x % 5) == 0))
 		{
-			printf("FizzBuzz");
+			_putchar("FizzBuzz");
 		}
 		else if ((x % 3) == 0)
 		{
-			printf("Fizz");
+			_putchar("Fizz");
 		}
 		else if ((x % 5) == 0)
 		{
-			printf("Buzz");
+			_putchar("Buzz");
 		}
 		else
 		{
-			printf("%x", x);
+			_putchar("%x", x);
 		}
 		if (x < 100)
-			printf(" ");
+			_putchar(" ");
 	}
 	return (0);
 }
