@@ -30,8 +30,7 @@ int main(void)
 			printf("%x", x);
 		}
 		if (x < 100)
-			printf(" ");
+			putchar(' ');
 	}
-	printf("\n");
-	return (0);
+	putchar('\n');
 }
