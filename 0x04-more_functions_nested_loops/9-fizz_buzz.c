@@ -11,6 +11,10 @@ int main(void)
 
 	for (x = 1; x <= 100; x++)
 	{
+		if (x > 1)
+		{
+			printf(" ");
+		}
 		if ((x % 3) == 0)
 		{
 			printf("Fizz");
@@ -27,8 +31,12 @@ int main(void)
 		{
 			printf("%d", x);
 		}
-		putchar(' ');
+		if (x < 100)
+		{
+			putchar(' ');
+		}
 	}
 	putchar('\n');
+
 	return (0);
 }
