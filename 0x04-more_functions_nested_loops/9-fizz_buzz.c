@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * fizz_buzz - printing to 100
+ * main - Fizz Buzz
+ *
+ * Return: void
  */
-void fizz_buzz(void)
+int main(void)
 {
 	int x;
 
