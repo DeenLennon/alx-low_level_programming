@@ -3,9 +3,8 @@
 
 /**
  * print_number - a function that print integers
- * @n: the integer
  */
-void print_number(int n)
+int main(void)
 {
 	unsigned long int a, i;
 
