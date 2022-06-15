@@ -31,5 +31,6 @@ int main(void)
 		if (x < 100)
 			_putchar(" ");
 	}
+	_putchar("\n");
 	return (0);
 }
