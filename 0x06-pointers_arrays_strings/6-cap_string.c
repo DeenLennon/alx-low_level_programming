@@ -3,7 +3,7 @@
 /**
  * cap_string - A function that capitalizes string letter
  * @x: the variable to be capitalized
- * Return: capitalized x
+ * Return: capitalized string
  */
 char *cap_string(char *x)
 {
