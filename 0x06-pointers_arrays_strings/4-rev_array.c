@@ -4,13 +4,13 @@
  * reverse_array - A function that reverse arrays
  * @a: first character
  * @n: second character
- * Return: void
  */
 void reverse_array(int *a, int n)
 {
 	int *p, i, aux, k;
 
 	p = a;
+
 	for (i = 0; i < n; i++)
 		p++;
 	for (k = 0; k < n / 2; k++)
