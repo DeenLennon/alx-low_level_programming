@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * string_array - A function that converts any string to uppercase
+ * string_toupper - A function that converts any string to uppercase
  * @x: the value of the array
  * Return: string
  */
-char *string_array(char *x)
+char *string_toupper(char *x)
 {
 	int i = 0;
 
