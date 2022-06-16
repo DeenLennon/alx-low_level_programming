@@ -6,7 +6,7 @@
  * Return: capitalized x
  */
 char *cap_string(char *x)
-{	x = "lennon,is;in alx program africa"
+{
 	char spc[] = {32, 9, '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}' };
 	int len = 13;
 	int a = 0, i;
