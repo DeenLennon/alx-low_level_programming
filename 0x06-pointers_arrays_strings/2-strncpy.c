@@ -3,9 +3,9 @@
 
 /**
  * _strncpy - A function that copies a string
- * @dest: first character
- * @src: second character
- * @n: third character
+ * @dest: first char
+ * @src: second char
+ * @n: third char
  * Return: string
  */
 char *_strncpy(char dest, char *src, int n)
