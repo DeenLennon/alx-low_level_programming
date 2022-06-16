@@ -5,7 +5,7 @@
  * @a: the array
  * @x: the value of the array
  */
-char string_array(char *x)
+char *string_array(char *x)
 {
 	int i = 0;
 
