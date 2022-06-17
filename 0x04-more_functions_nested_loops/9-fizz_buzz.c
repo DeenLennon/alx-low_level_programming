@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * main - Fizz Buzz
+ * main - prints multiples of 3 or 5
  *
- * Return: 0
+ * Return: Always(0)
  */
 int main(void)
 {
@@ -12,32 +11,24 @@ int main(void)
 
 	for (x = 1; x <= 100; x++)
 	{
-		if (x > 1)
+		if (x % 15 == 0)
 		{
-			printf(" ");
+			printf("FizzBuzz ");
 		}
-		if ((x % 3) == 0)
+		else if ((x % 3) == 0)
 		{
-			printf("Fizz");
+			printf("Fizz ");
 		}
 		else if ((x % 5) == 0)
 		{
-			printf("Buzz");
-		}
-		else if (((x % 5) == 0) && ((x % 3) == 0))
-		{
-			printf("FizzBuzz");
+			printf("Buzz ");
 		}
 		else
 		{
-			printf("%d", x);
-		}
-		if (x < 100)
-		{
-			putchar(' ');
+			printf("%x ", x);
 		}
 	}
-	putchar('\n');
+	putchar("Buzz\n");
 
 	return (0);
 }
