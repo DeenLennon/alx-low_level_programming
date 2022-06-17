@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * cap_string - A function that capitalizes string letter
- * @x: the variable to be capitalized
- * Return: capitalized string
+ * cap_string - capitalization function
+ * @x: string parameter
+ * Return: capitalized version of the string
  */
 char *cap_string(char *x)
 {
@@ -11,7 +11,7 @@ char *cap_string(char *x)
 	int len = 13;
 	int a = 0, i;
 
-	while (x[i])
+	while (x[a])
 	{
 		i = 0;
 		while (i < len)
