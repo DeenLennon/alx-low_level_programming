@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 /**
  * print_number - a function that print integers
@@ -14,6 +13,7 @@ int main(void)
 		while ((a % i == 0) && (a != i))
 			a = a / i;
 	}
-	printf("%lu\n", a);
+	printf("%d", a);
+	printf("\n");
 	return (0);
 }
