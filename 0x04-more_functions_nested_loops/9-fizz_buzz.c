@@ -28,7 +28,7 @@ int main(void)
 			printf("%x ", x);
 		}
 	}
-	putchar("Buzz\n");
+	printf("Buzz\n");
 
 	return (0);
 }
