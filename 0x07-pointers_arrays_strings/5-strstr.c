@@ -19,6 +19,7 @@ char *_strstr(char *haystack, char *needle)
 			{
 				break;
 			}
+
 			b++;
 		}
 
@@ -26,7 +27,9 @@ char *_strstr(char *haystack, char *needle)
 		{
 			return (haystack + a);
 		}
+
 		a++;
 	}
+
 	return ('\0');
 }
