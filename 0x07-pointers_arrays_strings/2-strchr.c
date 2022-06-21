@@ -2,8 +2,8 @@
 
 /**
  * _strchr - A function that locates a character
- * @s: a string 
- * @n: the given character
+ * @s: given string
+ * @c: the given character
  * Return: a string
  */
 char *_strchr(char *s, char c)
@@ -11,7 +11,7 @@ char *_strchr(char *s, char c)
 	int x = 0, y;
 
 	while (s[x])
-		x++;
+	x++;
 	for (y = 0; y < x; y++)
 	{
 		if (c == s[y])
