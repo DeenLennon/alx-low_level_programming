@@ -11,10 +11,17 @@ char *_strchr(char *s, char c)
 	int x = 0, y;
 
 	while (s[x])
-	y = 0;
-	while (s[y] != 32)
 	{
-		if (c[x] == s[y])
-		{
+		x++;
+	}
 
+	for (y = 0; y <= x; y++)
+	{
+		if (c == s[y])
+		{
+			s += y;
+			return (s);
+		}
+	}
+	return ('\0');
 }
