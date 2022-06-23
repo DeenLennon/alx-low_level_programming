@@ -6,3 +6,4 @@
 # 5- A function that returns the natural square root of a number.
 # 6- A function that returns 1 if the input is a prime number otherwise 0.
 # 7- A function that returns 1 if a string is palindrome and 0 if not.
+# 8- A function that compares two strings and returns 1 if identical and 0 otherwise
