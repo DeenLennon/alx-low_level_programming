@@ -3,10 +3,12 @@
 #include <stdlib.h>
 
 /**
- * array_range - a function that create array of integers
- * @min: minimum value
- * @max: maximum value
- * Return: integer array
+ * array_range - Creates an  array of integers ordered from min
+ * 		to max, inclusive
+ * @min: the first value of the array
+ * @max: the last value of the array
+ * Return: if min > max or the function fails - NULL.
+ * 		Otherwise - a pointer to the newly created array.
  */
 int *array_range(int min, int max)
 {
