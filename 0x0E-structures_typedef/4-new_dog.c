@@ -2,10 +2,11 @@
 #include "dog.h"
 
 /**
- * _copy - make a copy of passed in argument
- * @src: data to make copy of
- * Return: pointer
+ * _copy  -   Make a copy of passed in argument
+ * @src:      Data to make copy of
+ * Return:    Pointer
  */
+
 char *_copy(char *src)
 {
 	char *ptr;
@@ -21,7 +22,7 @@ char *_copy(char *src)
 
 	ptr = malloc(sizeof(char) * (len + 1));
 
-	if (ptr = NULL)
+	if (ptr == NULL)
 	{
 		return (NULL);
 	}
@@ -36,13 +37,13 @@ char *_copy(char *src)
 }
 
 /**
- * new_dog - create a new dog variable
- * @name: dog name
- * @age: dog age
- * @owner: dog owner
- *
- * Return: pointer to the new dog variable
+ * new_dog     - Create a new dog variable
+ * @name:        Name of the dog
+ * @age:         Age of the dog
+ * @owner:       Owner of the dog
+ * Return:       Pointer to new dog variable
  */
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *snoopie;
@@ -69,7 +70,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	(*snoopie).age = age;
 
-	new_owner = _copy(name);
+	new_owner = _copy(owner);
 	if (new_owner == NULL)
 	{
 		free((*snoopie).name);
