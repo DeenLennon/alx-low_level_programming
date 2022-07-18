@@ -11,4 +11,5 @@
 #10- A function that deletes the node at index index of a listint_t linked list.
 #11- A function that reverses a listint_t linked list.
 #12- A function that prints a listint_t linked list.
-#13- A    
+#13- A function that frees a listint_t list.
+#14- A    
